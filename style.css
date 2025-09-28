@@ -5,16 +5,75 @@
     position: relative;
     margin: 0;
 }
+body{
+    overflow: hidden;
+}
 body,footer{
     background-color: dodgerblue;
+    white-space: nowrap;
     margin: 10px 100px;
 }
 footer{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transform: scale(0.87);
+    bottom: 50px;
+}
+footer h1{
+    color: white;
+    font-weight: 200;
 }
 a{
     text-decoration: none;
+    color:black;
+    font-weight: 550;
+}
+p{
+    font-weight: 550;
+}
+img{
+    height: 20px;
+}
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2%;
+}
+.foot1,.foot2,.foot3{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.foot1 h1,.foot2 h1,.foot3 h1{
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: 800;
+}
+.black{
+    background-color: black;
     color: white;
+    padding: 10px 0px;
+}
+.box-img{
+    display: flex;
+    /* border: 1px solid crimson; */
+}
+div{
+    margin: 8px 0px;
+}
+.gap,.gap2,.gap3,.gap4{
+    gap: 9%;
+}
+.im-in img,.im-out img{
+    height: 50px;
+    padding: 4px;
+}
+.im-out img{
+    transform: rotateY(180deg);
+}
+.al-l{
+    text-align: left;
 }
