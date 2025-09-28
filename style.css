@@ -5,13 +5,16 @@
     position: relative;
     margin: 0;
 }
+::selection{
+    color: crimson;
+}
 body{
     overflow: hidden;
 }
 body,footer{
     background-color: dodgerblue;
     white-space: nowrap;
-    margin: 10px 100px;
+    margin: 10px 60px;
 }
 footer{
     justify-content: center;
@@ -34,6 +37,7 @@ a{
     text-decoration: none;
     color:black;
     font-weight: 550;
+    text-transform: uppercase;
 }
 p{
     font-weight: 550;
@@ -71,15 +75,26 @@ div{
     margin: 8px 0px;
 }
 .gap,.gap2,.gap3,.gap4{
-    gap: 9%;
+    gap: 7%;
+}
+.gap2{
+    gap: 20%;
 }
 .im-in img,.im-out img{
     height: 50px;
     padding: 4px;
+    margin: 0px 15px 0px 10px;
 }
 .im-out img{
     transform: rotateY(180deg);
 }
+.gap4 img{
+    height: 28px;
+}
 .al-l{
     text-align: left;
+}
+.black p{
+    font-weight: 100;
+    opacity: 75%;
 }
